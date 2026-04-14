@@ -7,7 +7,7 @@ const FriendCard = ({ friend }) => {
 
     return (
         <div className="p-6 md:p-5 lg:p-6 bg-white rounded-lg flex flex-col justify-center items-center shadow-xs space-y-3">
-            <Image src={picture} width={80} height={80} priority className="w-20 rounded-full" alt={name} />
+            <Image src={picture} width={80} height={80} priority className="w-20 rounded-full object-cover" alt={name} />
             <h3 className="text-[#1f2937] text-lg md:text-xl font-semibold">{name}</h3>
             <span className="text-xs text-[#64748b]">{days_since_contact}d ago</span>
             <div className="flex gap-3">
