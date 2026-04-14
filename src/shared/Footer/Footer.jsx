@@ -16,6 +16,7 @@ const Footer = () => {
                                 width={141}
                                 height={29}
                                 alt="Logo"
+                                className='w-35'
                                 priority
                             />
                         </Link>
