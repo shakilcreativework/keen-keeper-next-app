@@ -1,6 +1,13 @@
+"use client";
+
+import AppContexts from "@/context/AppContexts";
+import { useContext } from "react";
+import FriendCard from "./FriendCard";
 
 
 const FriendsCount = () => {
+    const { friends } = useContext(AppContexts);
+    // console.log(friends); 
 
     return (
         <div>
@@ -25,7 +32,11 @@ const FriendsCount = () => {
             <hr className="text-[#e9e9e9]" />
             <h3 className=" text-xl md:text-2xl text-[#1f2937] mt-6 mb-4">Your Friends</h3>
 
-            
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-6">
+                {
+                    friends.map((friend) => <FriendCard key={friend.id} friend={friend} />)
+                }
+            </div>
         </div>
     );
 };

@@ -10,7 +10,7 @@ const AddFriend = () => {
                     relationships that matter most.</p>
             </div>
             <Link
-                className={`flex justify-center items-center gap-2 px-4 py-2 rounded-md hover:text-white/30 transition-all bg-[#244d3f] text-white w-fit`}
+                className={`flex justify-center items-center gap-2 px-4 py-2 rounded-md hover:text-white/80 transition-all bg-[#244d3f] text-white w-fit`}
                 href="/"
             >
                 <FaPlus /> Add a Friend
