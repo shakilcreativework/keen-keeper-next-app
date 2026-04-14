@@ -1,4 +1,3 @@
-"use client";
 
 import AddFriend from "@/components/AddFriend/AddFriend";
 import FriendsCount from "@/components/FriendsCount/FriendsCount";
