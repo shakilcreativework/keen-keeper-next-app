@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import React from 'react';
 
 const Container = ({children, className = "max-w-7xl"}) => {
     return (

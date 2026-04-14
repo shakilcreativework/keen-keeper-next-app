@@ -1,7 +1,9 @@
+import AddFriend from "@/components/AddFriend/AddFriend";
+
 export default function Home() {
   return (
-    <div>
-      <h2 className="text-red-500">Home</h2>
+    <div className="py-20">
+      <AddFriend />
     </div>
   );
 }
