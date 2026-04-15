@@ -64,12 +64,12 @@ const FriendInfo = async ({ params }) => {
                 <div className="flex justify-between p-4 bg-white rounded-lg">
                     <div>
                         <h3 className=" text-base lg:text-lg font-medium text-[#244d3f]">Relationship Goal</h3>
-                        <p  className="text-[#64748b] text-sm ">Connect every <span className="text-xl font-semibold text-black">{goal} days</span></p>
+                        <p className="text-[#64748b] text-sm ">Connect every <span className="text-xl font-semibold text-black">{goal} days</span></p>
                     </div>
                     <div><span className="text-base text-[#1f2937] rounded-lg bg-[#f8fafc] py-2 px-5 font-medium">Edit</span></div>
                 </div>
                 <div className="p-4 space-y-4 bg-white rounded-lg">
-                    <h3  className="text-[#64748b] text-sm ">Quick Check-In</h3>
+                    <h3 className="text-[#64748b] text-sm ">Quick Check-In</h3>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
                         <div className="flex flex-col items-center text-center p-4 bg-[#f8fafc] rounded-lg w-full space-y-2">
