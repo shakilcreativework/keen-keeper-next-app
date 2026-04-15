@@ -1,3 +1,4 @@
+
 import friends from "@/data/friends.json";
 import Image from "next/image";
 import { FaEnvelopeOpenText, FaRegBell } from "react-icons/fa";
